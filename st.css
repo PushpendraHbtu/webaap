@@ -1,0 +1,187 @@
+/* Css reset  */
+*{
+    margin: 0%;
+    /* background: url(vap\ image\ \(5\).jpg); */
+    /* z-index: -1; */
+    /* opacity: 0.10; */
+    padding: 0%;
+}
+/* body style section  */
+#body-style{
+    /* background: url(vap\ image\ \(5\).jpg); */
+    /* background-color: lightskyblue; */
+}
+
+/* CSS variable */
+
+#root{
+    --navbar-height:59px;
+}
+#nevbar{
+    display:flex;
+    align-items:center;
+    position: relative;
+    top:0px;
+}
+
+/* navbar logo or images */
+#logo{
+    margin: 10px;
+
+}
+#logo img
+{
+    width: 56px;
+    height: 40px;
+margin: 3px 7px;
+}
+/* navbar list  */
+#nevbar ul{
+    display: flex;
+    padding: 5px;
+}
+#nevbar ul li{
+    padding: 10px;
+    display: block;
+    list-style: none;
+
+}
+#nevbar ul li a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-family:'Times New Roman', Times, serif;
+    padding: 4px 23px;
+    border-radius: 8px; 
+    /* background-color: rgba(217, 226, 247, 0.979); */
+}
+#nevbar ul li a:hover{
+    
+    background-color: rgba(166, 194, 253, 0.616);
+}
+#nevbar ::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.8;
+    z-index: -1;
+    background-color:rgb(247, 245, 238) ;
+
+
+}
+/* TOP SECTION  */
+#top{
+    /* margin:; */
+    display:flex;
+    flex-direction: column;
+    height: 390px;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+#top::before{
+     background: url(vap\ image\ \(1\).jpg ); 
+    content: "";
+    /* background: url("../img\ \(2\).jpg") ; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+}
+#top h1{
+    color: whitesmoke;
+    padding: 10px;
+
+}
+#top p{
+    color: whitesmoke;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* UTILITY SECTION  */
+.h-primary{
+    font-size: 2.5rem;
+}
+.h-secondry{
+    font-size: 1.2rem; 
+    color: rgb(243, 220, 190);
+    display: block;
+     text-decoration: none; 
+}
+.center{
+    text-align: center;
+}
+
+/* mid section  */
+#middle{
+    margin: 0%;
+    display: flex;
+}
+#middle .box{
+    /* display: block; */
+    
+  
+    /* margin: px px; */
+    padding: 15px;
+    right: 0%;
+    border:2px solid rgb(80, 9, 36);
+    border-radius: 10px;
+    /* background-color: rgba(151, 149, 233, 0.644); */
+    /* background: url(vap\ image\ \(5\).jpg); */
+    opacity: 0. 80;
+    text-decoration: none;
+    list-style-type: none;
+}
+#middle .box img{
+    display: block;
+    margin: auto;
+    width: 725px;
+    }
+#mid h1 .h-primary{
+    padding: 10px;
+}
+#mid{
+    background: url(vap\ image\ \(5\).jpg);
+    color: lightyellow;
+   
+}
+#middle :hover{
+    background-color: lightsalmon ;
+    color: black;
+text-decoration: none;
+}
+
+/* bottom section  */
+
+.bot{
+    background: url(vap\ image\ \(5\).jpg);
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    padding: 10px;
+}
+.bot .bot-item{
+    
+    border-radius: 22px;
+    border: 2px solid rgb(60, 164, 230);
+    padding: 20px;
+    position: relative;
+}
+.bot :hover{
+    background-color: rgb(224, 255, 231);
+    
+}
+
+

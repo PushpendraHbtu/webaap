@@ -1,0 +1,78 @@
+/* CSS reset  */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#root{
+    --navbar-height:59px;
+}
+
+#nevbar{
+    display:flex;
+    align-items:center;
+    position: relative;
+    top:0px;
+}
+
+/* navbar logo or images */
+#logo{
+    margin: 10px;
+
+}
+#logo img
+{
+    width: 56px;
+    height: 40px;
+margin: 3px 7px;
+}
+/* navbar list  */
+#nevbar ul{
+    display: flex;
+    padding: 5px;
+}
+#nevbar ul li{
+    padding: 10px;
+    display: block;
+    list-style: none;
+
+}
+#nevbar ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(7, 0, 0);
+    font-size: 1.1rem;
+    font-family:'Times New Roman', Times, serif;
+    padding: 4px 23px;
+    border-radius: 8px; 
+    /* background-color: rgba(217, 226, 247, 0.979); */
+}
+#nevbar ul li a:hover{
+    
+    background-color: rgba(166, 194, 253, 0.616);
+}
+#nevbar ::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.8;
+    z-index: -1;
+    background-color:rgb(247, 245, 238) ;
+
+
+}
+
+/* section login  */
+
+.log {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+   margin: 5px;
+}

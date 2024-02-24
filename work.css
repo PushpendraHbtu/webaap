@@ -1,0 +1,164 @@
+/* CSS reset  */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#root{
+    --navbar-height:59px;
+}
+
+#nevbar{
+    display:flex;
+    align-items:center;
+    position: relative;
+    top:0px;
+}
+
+/* navbar logo or images */
+#logo{
+    margin: 10px;
+
+}
+#logo img
+{
+    width: 56px;
+    height: 40px;
+margin: 3px 7px;
+}
+/* navbar list  */
+#nevbar ul{
+    display: flex;
+    padding: 5px;
+}
+#nevbar ul li{
+    padding: 10px;
+    display: block;
+    list-style: none;
+
+}
+#nevbar ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(7, 0, 0);
+    font-size: 1.1rem;
+    font-family:'Times New Roman', Times, serif;
+    padding: 4px 23px;
+    border-radius: 8px; 
+    /* background-color: rgba(217, 226, 247, 0.979); */
+}
+#nevbar ul li a:hover{
+    
+    background-color: rgba(166, 194, 253, 0.616);
+}
+#nevbar ::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.8;
+    z-index: -1;
+    background-color:rgb(247, 245, 238) ;
+
+
+}
+ 
+/* upper section  */
+
+#upper{
+   
+    padding: 7px;
+    display: flex;
+    background-color: rgb(220, 241, 253);
+    top: 0%;
+}
+ .h-primary{
+   text-align: center;
+} 
+
+.up{
+    display: flex;
+    position: relative;
+    border-radius: 17px;
+    border: 2px solid rgb(220, 241, 253);
+    margin: 10px 23px;
+    padding: 5px;
+    /* background-color:rgb(247, 245, 238) ; */
+}
+.up img {
+    border-radius: 50px;
+    border: 1px solid black;
+}
+/* .upp{ 
+
+    padding: 3px;
+ } */
+ .up:hover{
+     background-color: rgb(138, 220, 245);
+ }
+
+ /* miid section  */
+
+ #mid{
+     display: flex;
+     padding: 2px;
+     background-color: rgb(192, 192, 202);
+     padding: 10px ;
+     border: 1px solid black;
+ }
+
+ .h-secondry{
+     font-family: 'Times New Roman', Times, serif;
+     padding: 10px;
+ }
+ .btn{
+     text-align: center;
+      background-color: lightslategrey;
+     color: white;
+     text-align-last: right;
+     padding: 5px;
+     border-radius: 20px;
+     font-size: 1.0rem;
+     font-family: cursive;
+     cursor: pointer;
+
+ }
+ .miidd{
+     border: 1px solid black;
+     text-align: center;
+
+ }
+
+
+ /* bottum section  */
+
+ #bottum{
+     background: url(vap\ image\ \(5\).jpg);
+ }
+ .bot{
+     display: flex;
+     align-items: right;
+     justify-content: left;
+      padding: 20px;
+     
+ }
+ .bot :hover{
+     background-color: white;
+ }
+ .bot-item{
+     
+    border-radius: 22px;
+    border: 2px solid rgb(60, 164, 230);
+    padding: 7px;
+    position: relative;
+    margin: 8px;
+}
+ 
+.tum{
+    text-align: center;
+    color: white;
+    font-size: 0.90rem;
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+ <h1 class="h-primary center"> LOGIN</h1>
+            <label for="NAME">NAME-</label>
+            <input type="text" name="myname" id="NAME"><br>
+            <label for="GMAIL">GMAIL-</label>
+            <input type="email" id="GMAIL"><br>
+            <label for="PASSWORD">PASSWORD-</label>
+            <input type="password" id="PASSWORD"><br>
+            <!-- <label for="gender">GENDER-</label> -->
+            <!-- <input type="ratio" id= -->
+            Gender- :MALE<input type="radio" name="my gender">FEMALE<input type="radio"
+                name="my gender">OTHER<input type="radio" name="my gender"> <br>
+            <label for="confrom">ARE YOU 18+</label>
+            <input type="checkbox" id="confrom"><br>
+            <label for="hi">Gaming start from-</label>
+            <input type="date" id="hi"><br>
+            <input type="submit" value="Submit Now"><br>
+            <input type="reset" value="Reset Now">
